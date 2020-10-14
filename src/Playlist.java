@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class Playlist {
     public static void main(String[] args) {
-        ArrayList<String> desertIslandPlaylist = new ArrayList<String>();
+        //can remove the explicit type String on new ArrayList
+        ArrayList<String> desertIslandPlaylist = new ArrayList<>();
         desertIslandPlaylist.add("TINA");
         desertIslandPlaylist.add("Neo Seoul");
         desertIslandPlaylist.add("OK time for plan B");
